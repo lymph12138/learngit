@@ -2,6 +2,8 @@
  $ git add <files>添加文件到 git库
  $ git commit -m"flag" 标记
  $ git log 查看提交历史 
+ $ git log --pretty=oneline 轻量化查询
  $ git reset --hard ommit_id 版本回退与前进
  $ git reflog 查看命令历史定位
+ $ cat <files> 显示文件
  
