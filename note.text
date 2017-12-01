@@ -30,3 +30,12 @@
 (再次推送文件到github) 
  $ git clone git@github.com:(你的账号)/(仓库名).git
  将远程的github库拷贝到本地git
+ 分支管理
+ $ git checkout -b dev(创建dev分支)
+ 等价于
+ $ git branch dev  $ git checkout dev
+ $ git branch (查看当前分支)
+ $ git checkout <name>(切换分支)
+ $ git merge (合并分支)
+ $ git branch -d<name>(删除分支)
+ 
