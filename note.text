@@ -1,5 +1,7 @@
-$ git add <files>添加文件到 git库
+ $ git add <files>添加文件到 git库
  $ git commit -m"flag" 标记
+ $ git status 查看状态
+ $ git diff 查看不同
  $ git log 查看提交历史 
  $ git log --pretty=oneline 轻量化查询
  $ git reset --hard ommit_id 版本回退与前进
