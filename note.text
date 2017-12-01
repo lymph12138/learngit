@@ -1,5 +1,4 @@
-$ git init 创建 git 版本库
- $ git add <files>添加文件到 git库
+$ git add <files>添加文件到 git库
  $ git commit -m"flag" 标记
  $ git log 查看提交历史 
  $ git log --pretty=oneline 轻量化查询
@@ -7,4 +6,6 @@ $ git init 创建 git 版本库
  $ git reflog 查看命令历史定位
  $ cat <files> 显示文件
  $ cd <file> 声明操作的文件
+ 工作区（Working Directory）：learngit
+ 版本库（repository）: .git
  
