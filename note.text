@@ -1,13 +1,16 @@
+ $ mkdir <file> 建立版本库
+ $ cd <file> 声明操作的文件
+ $ pwd 显示当前目录
+ $ git init 命令把这个目录变成Git可以管理的仓库
  $ git add <files>添加文件到 git库
  $ git commit -m"flag" 标记
  $ git status 查看状态
  $ git diff 查看不同
  $ git log 查看提交历史 
  $ git log --pretty=oneline 轻量化查询
- $ git reset --hard ommit_id 版本回退与前进
+ $ git reset --hard commit_id 版本回退与前进
  $ git reflog 查看命令历史定位
  $ cat <files> 显示文件
- $ cd <file> 声明操作的文件
  工作区（Working Directory）：learngit
  版本库（repository）: .git
  $ git checkout -- <files>
